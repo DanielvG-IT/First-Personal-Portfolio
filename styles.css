@@ -1,35 +1,35 @@
 /* GENERAL */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 /* Light Mode */
 :root {
   --primary-color: white;
-  --primary-color-2: rgb(250,250,250);
-  --primary-color-3: rgb(181,181,181);
-  --backgroud-color: rgb(255,255,255);
+  --primary-color-2: rgb(250, 250, 250);
+  --primary-color-3: rgb(181, 181, 181);
+  --backgroud-color: rgb(255, 255, 255);
   --secondary-color: black;
-  --secondary-color-2: rgb(85,85,85);
-  --button-background: rgb(53,53,53);
+  --secondary-color-2: rgb(85, 85, 85);
+  --button-background: rgb(53, 53, 53);
   --button-text-hover: gray;
-  --button-border: rgb(53,53,53) 0.1rem solid;
-  --button-border-2: rgb(255,255,255) 0.1rem solid;
-  --container-border: rgb(163,163,163);
+  --button-border: rgb(53, 53, 53) 0.1rem solid;
+  --button-border-2: rgb(255, 255, 255) 0.1rem solid;
+  --container-border: rgb(163, 163, 163);
 }
 
 /* Dark Mode */
 [theme="dark"] {
   --primary-color: black;
-  --primary-color-2: rgb(39,39,39);
-  --primary-color-3: rgb(74,74,74);
-  --backgroud-color: rgb(33,33,33);
+  --primary-color-2: rgb(39, 39, 39);
+  --primary-color-3: rgb(74, 74, 74);
+  --backgroud-color: rgb(33, 33, 33);
   --secondary-color: white;
-  --secondary-color-2: rgb(170,170,170);
-  --button-background: rgb(202,202,202);
+  --secondary-color-2: rgb(170, 170, 170);
+  --button-background: rgb(202, 202, 202);
   --button-text-hover: lightgrey;
-  --button-border: rgb(202,202,202) 0.1rem solid;
-  --button-border-2: rgb(0,0,0) 0.1rem solid;
-  --container-border: rgb(92,92,92);
+  --button-border: rgb(202, 202, 202) 0.1rem solid;
+  --button-border-2: rgb(0, 0, 0) 0.1rem solid;
+  --container-border: rgb(92, 92, 92);
 }
 
 * {
@@ -38,11 +38,11 @@
 }
 
 h3 {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 body {
-  font-family: 'Poppins', 'sans-serif';
+  font-family: "Poppins", "sans-serif";
   background-color: var(--backgroud-color);
 }
 
@@ -56,17 +56,17 @@ p {
 
 /* TRANSITION */
 
-a, 
-  btn {
-    transition: all 300ms ease;
+a,
+btn {
+  transition: all 300ms ease;
 }
 
 /* DESKTOP NAV*/
 
-nav, 
-.nav-links{
-    display: flex;
-    align-items: center;
+nav,
+.nav-links {
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -81,7 +81,7 @@ nav li:last-child {
   padding: 10px;
 }
 
-.nav-links{
+.nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
@@ -140,7 +140,7 @@ nav a:hover {
   transition: all 300ms ease-in-out;
 }
 
-.menu-links { 
+.menu-links {
   position: absolute;
   top: 100%;
   right: 0%;
@@ -180,7 +180,7 @@ nav a:hover {
   transform: rotate(225deg) translate(10px, 5px);
 }
 
-/* EASIER TRANSITION FOR X IN HAMBURGER MENU *//*
+/* EASIER TRANSITION FOR X IN HAMBURGER MENU */ /*
 .hamburger-icon.open span:nth-child(1) {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -324,7 +324,7 @@ section {
 /* ABOUT SECTION */
 
 #about {
-  position: relative
+  position: relative;
 }
 
 .about-containers {
@@ -334,11 +334,11 @@ section {
 }
 
 .about-details-container {
-    justify-content: center;
-    flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.about-containers, 
+.about-containers,
 .about-details-container {
   display: flex;
 }
@@ -363,7 +363,7 @@ section {
   text-align: center;
 }
 
-.section-container{
+.section-container {
   gap: 4rem;
   height: 80%;
 }
