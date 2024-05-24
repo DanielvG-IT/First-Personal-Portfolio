@@ -58,14 +58,14 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Daniël van Ginneken profile picture">
+            <img src="./assets/profile-pic.jpeg" alt="Daniël van Ginneken profile picture" class="profile-pic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I am</p>
             <h1 class="title">Daniël van Ginneken</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="under-name">Software Developer and IT admin</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-exampe.pdf')">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Daniël van Ginneken - Curriculum vitae - English.pdf')">
                     Download CV
                 </button>
                 <button class="btn btn-color-1" onclick="window.location.href='./#contact'">
@@ -93,40 +93,58 @@
         </div>
     </section>
     <section id="about">
-        <p class="section__text__p1">Get to know more</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="profile-picture" class="about-pic">  
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img 
-                          src="./assets/experience_light.png" 
-                          src-light="./assets/experience_light.png"
-                          src-dark="./assets/experience_dark.png"
-                          alt="Experience Icon"
-                          class="icon"
-                          />
-                        <h3>Experience</h3>
-                        <p>Support Employee <br>Dentech Telecommunicatie</p>
-                    </div>
-                    <div class="details-container">
-                        <img 
-                          src="./assets/education_light.png" 
-                          src-light="./assets/education_light.png"
-                          src-dark="./assets/education_dark.png"
-                          alt="Education Icon" 
-                          class="icon"
-                          />
-                        <h3>Education</h3>
-                        <p> Expert Systems and Devices<br>Curio, MBO niveau 4</p>
-                    </div>
+      <p class="section__text__p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+          <div class="section__pic-container">
+              <img src="./assets/about-pic.jpg" alt="Profile Picture" class="about-pic">  
+          </div>
+          <div class="about-details-container">
+              <div class="about-containers">
+                  <div class="details-container">
+                      <img 
+                        src="./assets/experience_light.png" 
+                        src-light="./assets/experience_light.png"
+                        src-dark="./assets/experience_dark.png"
+                        alt="Experience Icon"
+                        class="icon"
+                        />
+                      <h3>Experience</h3>
+                      <p>IT management<br>2+ years experience <br></p>
+                  </div>
+                  <div class="details-container">
+                      <img 
+                        src="./assets/education_light.png" 
+                        src-light="./assets/education_light.png"
+                        src-dark="./assets/education_dark.png"
+                        alt="Education Icon" 
+                        class="icon"
+                        />
+                      <h3>Education</h3>
+                      <p>Studying IT Management<br>Curio Radius College</p>
+                  </div>
+                  <div class="details-container">
+                    <img 
+                      src="./assets/education_light.png" 
+                      src-light="./assets/education_light.png"
+                      src-dark="./assets/education_dark.png"
+                      alt="Education Icon" 
+                      class="icon"
+                      />
+                    <h3>Certification</h3>
+                    <p>Microsoft 365 fundamentals<br>	3CX Advanced Certified Engineer</p>
+                </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, praesentium soluta aperiam laudantium sapiente molestias minus accusamus inventore, 
-                        recusandae beatae aut ipsam culpa cupiditate sed. Animi, consectetur libero. Tempora, ut!</p>
+                    <p>
+                      I’m a passionate and dedicated <span id="current-age"></span>-year-old pursuing a degree in IT management. With a keen interest in software development and IT administration, I am always eager to dive into new projects and explore enterprise systems right from my home lab. <br><br>
+                      
+                      My journey in technology began with hobby projects, and over the years, I have honed my skills to tackle more complex challenges. Whether it's coding a new application or configuring a network, I thrive on problem-solving and continuous learning. <br><br>
+                      
+                      I am a fervent admirer of motorsports, with a special fondness for Rally, Formula 1, GT3, and Drift racing. Living in the beautiful region of North Brabant, the Netherlands, I am constantly inspired by my surroundings and the ever-evolving tech landscape. My goal is to leverage my skills and passion to make meaningful contributions to the field of IT and software development. <br><br>
+                      
+                      Thank you for visiting my portfolio. Feel free to explore my projects and get in touch!<br><br>
+                    </p>
                 </div>
             </div>
         </div>
@@ -157,7 +175,7 @@
                     />
                   <div>
                     <h3>HTML</h3>
-                    <p>Experienced</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
@@ -170,7 +188,7 @@
                     />
                   <div>
                     <h3>CSS</h3>
-                    <p>Experienced</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
@@ -208,8 +226,8 @@
                     class="icon"
                     />
                   <div>
-                    <h3>Material UI</h3>
-                    <p>Intermediate</p>
+                    <h3>UX design</h3>
+                    <p>Basic</p>
                   </div>
                 </article>
               </div>
@@ -227,7 +245,7 @@
                     />
                   <div>
                     <h3>PostgreSQL</h3>
-                    <p>Basic</p>
+                    <p>Intermediate</p>
                   </div>
                 </article>
                 <article>
@@ -240,7 +258,7 @@
                     />
                   <div>
                     <h3>Node JS</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
@@ -253,7 +271,7 @@
                     />
                   <div>
                     <h3>Express JS</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
@@ -298,6 +316,32 @@
                   <div>
                     <h3>VMWare ESXi</h3>
                     <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img 
+                    src="./assets/checkmark_light.png"
+                    src-light="./assets/checkmark_light.png"
+                    src-dark="./assets/checkmark_dark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                  <div>
+                    <h3>VMWare ESXi</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img 
+                    src="./assets/checkmark_light.png"
+                    src-light="./assets/checkmark_light.png"
+                    src-dark="./assets/checkmark_dark.png"
+                    alt="Experience icon"
+                    class="icon"
+                    />
+                  <div>
+                    <h3>Cisco networking</h3>
+                    <p>Advanced</p>
                   </div>
                 </article>
                 <article>

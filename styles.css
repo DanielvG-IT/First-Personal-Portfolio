@@ -226,6 +226,15 @@ section {
   height: 80vh;
 }
 
+.under-name {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  border-radius: 25%;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
