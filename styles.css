@@ -61,6 +61,79 @@ btn {
   transition: all 300ms ease;
 }
 
+/* COOKIE POPUP*/
+#cookies {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 0;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+  display: none;
+}
+
+.cookie-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cookie-subcontainer {
+  max-width: 800px;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.cookies {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cookies p {
+  margin: 0;
+  flex: 1;
+}
+
+.cookies a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+#cookies-accept-btn {
+  background-color: #ffd700;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+#cookies-accept-btn:hover {
+  background-color: #ffa500;
+}
+
+#cookies.fade-out {
+  animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 /* DESKTOP NAV*/
 
 nav,
@@ -499,6 +572,6 @@ footer {
 footer p {
   text-align: center;
   margin-top: 1.5rem;
-  color: balck;
+  color: black;
   font-weight: 600;
 }
