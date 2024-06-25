@@ -124,3 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.replace(currentUrl + ".html");
   }
 });
+
+function openInNewTab(url) {
+  window.open(url, "_blank").focus();
+}
