@@ -186,6 +186,35 @@ nav a:hover {
   cursor: default;
 }
 
+.black {
+  color: black;
+  background-color: black;
+}
+
+.language-container a {
+  justify-content: center;
+}
+
+.language-image-not-active {
+  opacity: 1;
+}
+
+.language-image-active {
+  overflow: hidden;
+  filter: brightness(0.3);
+}
+
+/* Ensure images retain their aspect ratio and fit within the specified dimensions */
+.language-image-active,
+.language-image-not-active {
+  object-fit: cover;
+  border-radius: 25%;
+  width: 3.15rem;
+  height: auto;
+  border: 2px solid;
+  border-color: var(--secondary-color);
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
