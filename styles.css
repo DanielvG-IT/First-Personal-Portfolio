@@ -594,7 +594,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 31vh;
   margin: 0 1;
 }
 
@@ -603,4 +603,13 @@ footer p {
   margin-top: 1.5rem;
   color: black;
   font-weight: 600;
+}
+
+.footer-policys {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  vertical-align: middle;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
