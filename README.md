@@ -7,7 +7,6 @@ Now with personal information added to it.
 
 ### TODO:
 
-- [ ] Add language selector to English hamburger menu
 - [ ] Add Privacy policy
 - [ ] Add terms and conditions
 - [ ] Add back button on legal pages
@@ -19,3 +18,4 @@ Now with personal information added to it.
 ### DONE
 
 - [x] Update Cookie link English page
+- [x] Add language selector to English hamburger menu
