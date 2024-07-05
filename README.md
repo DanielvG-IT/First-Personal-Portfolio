@@ -14,6 +14,7 @@ Now with personal information added to it.
 ### Future
 
 - [ ] Add blog section (and make backend for the posts!)
+- [ ] Make website blog.danielvanginneken.nl for blogs
 
 ### DONE
 
