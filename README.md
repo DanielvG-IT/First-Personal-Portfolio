@@ -7,16 +7,15 @@ Now with personal information added to it.
 
 ### TODO:
 
-- [ ] Add Privacy policy
-- [ ] Add terms and conditions
 - [ ] Add back button on legal pages
-
-### Future
-
 - [ ] Add blog section (and make backend for the posts!)
-- [ ] Make website blog.danielvanginneken.nl for blogs
 
 ### DONE
 
-- [x] Update Cookie link English page
-- [x] Add language selector to English hamburger menu
+- [x] Add terms and conditions page
+- [x] Update terms and conditions English page
+
+- [x] Add cookies page
+- [x] Update Cookies English page
+
+- [x] Add language selector to navigation
