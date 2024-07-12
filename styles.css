@@ -15,6 +15,7 @@
   --button-border: rgb(53, 53, 53) 0.1rem solid;
   --button-border-2: rgb(255, 255, 255) 0.1rem solid;
   --container-border: rgb(163, 163, 163);
+  --nav-scrolled-backgroud-color: rgb(200, 200, 200);
 }
 
 /* Dark Mode */
@@ -30,6 +31,7 @@
   --button-border: rgb(202, 202, 202) 0.1rem solid;
   --button-border-2: rgb(0, 0, 0) 0.1rem solid;
   --container-border: rgb(92, 92, 92);
+  --nav-scrolled-backgroud-color: rgb(53, 53, 53);
 }
 
 * {
@@ -144,7 +146,16 @@ nav,
 
 nav {
   justify-content: space-around;
-  height: 17vh;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--backgroud-color);
+  transition: all 500ms ease-in-out;
+}
+
+nav.scrolled {
+  background: var(--nav-scrolled-backgroud-color);
 }
 
 nav li:last-child {
