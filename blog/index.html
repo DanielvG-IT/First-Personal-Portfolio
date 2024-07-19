@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html" />
+    <title>Blog | Daniël van Ginneken</title>
+    <link rel="icon" href="/assets/D_logo.ico" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/mediaqueries.css" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="danielvanginneken" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Daniël van Ginneken | Blog" />
+    <meta
+      name="twitter:description"
+      content="Gepassioneerd en toegewijd persoon die een carrière in IT-management nastreeft" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Gepassioneerd en toegewijd persoon die een carrière in IT-management nastreeft" />
+    <meta property="og:url" content="https://danielvanginneken.nl/blog/" />
+    <meta property="og:site_name" content="Daniël van Ginneken" />
+    <link rel="preconnect" href="https://p.typekit.net/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://use.typekit.net/" />
+  </head>
+  <body>
+    <div id="cookies">
+      <div class="cookie-container">
+        <div class="cookie-subcontainer">
+          <div class="cookies">
+            <p>
+              Deze website maakt gebruik van (functionele) cookies om ervoor te
+              zorgen dat u de beste ervaring krijgt.
+              <a href="/cookies/information.html">Meer informatie</a>
+            </p>
+            <button id="cookies-accept-btn">Accepteren</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav id="desktop-nav">
+      <div class="logo">Daniël van Ginneken</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="/#">Home</a></li>
+          <li><a href="/#about">Over</a></li>
+          <li><a href="/#experience">Ervaring</a></li>
+          <li><a href="/#projects">Projecten</a></li>
+          <li><a href="/#contact">Contact</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li>
+            <img
+              id="modeToggle"
+              class="icon color-icon"
+              src="/assets/theme_light.png"
+              src-light="/assets/theme_light.png"
+              src-dark="/assets/theme_dark.png"
+              alt="Choose theme icon" />
+          </li>
+          <li>
+            <div class="language-container">
+              <a href="/"
+                ><img
+                  id="LanguageSelector-Dutch"
+                  class="icon black color-icon language-image-active"
+                  src="/assets/Netherlands-flag.png"
+                  src-light="/assets/Netherlands-flag.png"
+                  src-dark="/assets/Netherlands-flag.png"
+                  alt="Dutch Language Selector"
+              /></a>
+              <a href="/en/"
+                ><img
+                  id="LanguageSelector-English"
+                  class="icon black color-icon language-image-not-active"
+                  src="/assets/UnitedKingdom-flag.png"
+                  src-light="/assets/UnitedKingdom-flag.png"
+                  src-dark="/assets/UnitedKingdom-flag.png"
+                  alt="English Language Selector"
+              /></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Daniël van Ginneken</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="ToggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="/#" onclick="ToggleMenu()">Home</a></li>
+          <li><a href="/#about" onclick="ToggleMenu()">Over</a></li>
+          <li><a href="/#experience" onclick="ToggleMenu()">Ervaring</a></li>
+          <li><a href="/#projects" onclick="ToggleMenu()">Projecten</a></li>
+          <li><a href="/#contact" onclick="ToggleMenu()">Contact</a></li>
+          <li><a href="/blog/" onclick="ToggleMenu()">Blog</a></li>
+          <li class="ThemeToggleHamMenu">
+            <img
+              id="modeToggle2"
+              class="icon color-icon"
+              src="/assets/theme_light.png"
+              src-light="/assets/theme_light.png"
+              src-dark="/assets/theme_dark.png"
+              alt="Choose theme icon hamburger menu" />
+          </li>
+          <li>
+            <a href="/"
+              ><img
+                id="LanguageSelector-Dutch"
+                class="icon black color-icon language-image-active"
+                src="/assets/Netherlands-flag.png"
+                src-light="/assets/Netherlands-flag.png"
+                src-dark="/assets/Netherlands-flag.png"
+                alt="Dutch Language Selector"
+            /></a>
+            <a href="/en/"
+              ><img
+                id="LanguageSelector-English"
+                class="icon black color-icon language-image-not-active"
+                src="/assets/UnitedKingdom-flag.png"
+                src-light="/assets/UnitedKingdom-flag.png"
+                src-dark="/assets/UnitedKingdom-flag.png"
+                alt="English Language Selector"
+            /></a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <section id="blog">
+      <p class="section__text__p1">Mijn Recente</p>
+      <h1 class="title">Blogposts</h1>
+      <div class="blog-container">
+        <div class="blog-post">
+          <div class="blog-post-image">
+            <img src="/assets/project-2.png" alt="Blog post image 1" />
+          </div>
+          <div class="blog-post-information">
+            <!--ADD MORE HERE!-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          | Daniël van Ginneken | Alle rechten voorbehouden
+        </p>
+      </div>
+      <div class="footer-policys">
+        <a href="/algemene-voorwaarden/"><p>Algemene Voorwaarden</p></a>
+        <p>|</p>
+        <a href="/cookies/"><p>Cookies Beleid</p></a>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
