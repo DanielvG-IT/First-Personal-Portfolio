@@ -454,6 +454,7 @@ section {
 
 #about {
   position: relative;
+  margin-top: 1rem;
 }
 
 .about-containers {
@@ -495,6 +496,7 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+  margin-top: 1rem;
 }
 
 .section__pic-container {
